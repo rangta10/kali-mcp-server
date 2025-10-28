@@ -51,19 +51,6 @@ kali-mcp-server/
 ```
 
 ---
-
-## 📸 Screenshots (added)
-
-The following screenshots were added to the `screenshots/` folder in the repo (kept at their original filenames):
-
-* `scan_report.png` (from your first nmap + PDF report screenshot)
-* `ssh_bruteforce.png` (Hydra / SSH brute force guide screenshot)
-* `tools_list_1.png` (tools list / toggles screenshot)
-* `tools_list_2.png` (tools list continued screenshot)
-* `tools_menu.png` (main menu showing kali-mcp-server connector)
-
-(These image files were included exactly as provided; no edits were made.)
-
 ---
 
 ## 🚀 Quick Start
@@ -140,6 +127,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 ![metasploit exploit search](screenshots/ssh_bruteforce.png)
 *Figure 2 — metasploit exploit search*
 
-*
+
 
 ---
