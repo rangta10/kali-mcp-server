@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "kali-mcp-server": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "--privileged",
+        "--cap-add=NET_ADMIN",
+        "--cap-add=NET_RAW",
+        "kali-mcp-server:latest",
+        "node",
+        "/app/server.js"
+      ]
+    }
+  }
+}
