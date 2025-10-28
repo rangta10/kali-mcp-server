@@ -3,9 +3,8 @@ A Kali Linux MCP (Model Context Protocol) Server built with Node.js for seamless
 
 ---
 
-> **DISCLAIMER — IMPORTANT LEGAL NOTICE**
-
-This repository and the tools, code, scripts, configurations, documentation, and other materials contained herein (collectively, the “Materials”) are provided solely for lawful, educational, and authorized security-testing purposes. The author(s) and maintainers make no representations or warranties regarding the suitability, accuracy, completeness, or fitness of the Materials for any particular purpose.
+> **DISCLAIMER — IMPORTANT LEGAL NOTICE
+This repository and the tools, code, scripts, configurations, documentation, and other materials contained herein (collectively, the “Materials”) are provided solely for lawful, educational, and authorized security-testing purposes. The author(s) and maintainers make no representations or warranties regarding the suitability, accuracy, completeness, or fitness of the Materials for any particular purpose.**
 
 ---
 
