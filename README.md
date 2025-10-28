@@ -140,13 +140,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 ![metasploit exploit search](screenshots/ssh_bruteforce.png)
 *Figure 2 — metasploit exploit search*
 
-![kali-mcp-server in claude](screenshots/tools_list_1.png)
-*Figure 3 — kali-mcp-server in claude*
-
-![kali-mcp-server tools in claude](screenshots/tools_list_2.png)
-*Figure 4 — kali-mcp-server tools in claude*
-
-![kali-mcp-server tools in claude](screenshots/tools_menu.png)
-*Figure 5 — kali-mcp-server tools in claude*
+*
 
 ---
