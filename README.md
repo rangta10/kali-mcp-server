@@ -1,6 +1,5 @@
 # kali-mcp-server
-
-A fully functional **Kali Linux MCP (Model Context Protocol) Server** built in Node.js that can be integrated with LLMs like Claude, ChatGPT, or other MCP-compatible clients. This server provides network security and penetration testing utilities such as Nmap, Whois, Dig, Ping, Nikto, Hydra, SQLMap, and more — all running from a Dockerized Kali Linux environment.
+A Kali Linux MCP (Model Context Protocol) Server built with Node.js for seamless integration with LLMs such as Claude, or any MCP-compatible client. It offers powerful network security and penetration testing tools like Nmap, Whois, Dig, Ping, Nikto, Hydra, and SQLMap inside a Dockerized Kali Linux setup.
 
 ---
 
