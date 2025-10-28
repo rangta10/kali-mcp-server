@@ -122,10 +122,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 ## 📸 Screenshots
 
 ![nmap scan](screenshots/scan_report.png)
-*Figure 1 — nmap scan*
+*nmap scan*
 
 ![metasploit exploit search](screenshots/ssh_bruteforce.png)
-*Figure 2 — metasploit exploit search*
+*metasploit exploit search*
 
 
 
