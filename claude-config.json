@@ -1,5 +1,14 @@
 {
   "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\annan\\Desktop",
+        "C:\\Users\\annan\\Downloads"
+      ]
+    },
     "kali-mcp-server": {
       "command": "docker",
       "args": [
