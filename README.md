@@ -54,10 +54,17 @@ kali-mcp-server/
 
 ## 🚀 Quick Start
 
+### # Prequisitives
+
+```bash
+node server.js
+Docker
+```
+
 ### 1. Clone and Build Docker Image
 
 ```bash
-git clone https://github.com/yourusername/kali-mcp-server.git
+git clone https://github.com/rangta10/kali-mcp-server.git
 cd kali-mcp-server
 docker build -t kali-mcp .
 ```
@@ -68,12 +75,56 @@ docker build -t kali-mcp .
 docker run -it kali-mcp
 ```
 
-### 3. Run Locally (Optional)
+### 3. Config Claude AI
+
+Install Claude Desktop
+Turn on Claude Dveloper from settings
+Navigate TO 
 
 ```bash
-npm install
-node server.js
+C:\Users\<YourUsername>\AppData\Roaming\Claude
 ```
+Edit this File 
+```
+claude_desktop_config.json
+```
+
+## Claude_desktop_config.json
+```claude_desktop_config.json
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\annan\\Desktop",
+        "C:\\Users\\annan\\Downloads"
+      ]
+    },
+    "kali-mcp-server": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "--privileged",
+        "--cap-add=NET_ADMIN",
+        "--cap-add=NET_RAW",
+        "kali-mcp-server:latest",
+        "node",
+        "/app/server.js"
+      ]
+    }
+  }
+}
+```
+
+```bash
+docker run -it kali-mcp
+```
+
+
 
 ---
 
@@ -101,10 +152,10 @@ CMD ["node", "server.js"]
 
 --- 
 
-## 📜 LICENSE (MIT)
+## 📜 LICENSE 
 
 ```text
-MIT License
+ License
 
 Copyright (c) 2025 rangta
 
@@ -122,9 +173,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
 ![nmap scan](screenshots/scan_report.png)
 *nmap scan*
-
-![metasploit exploit search](screenshots/ssh_bruteforce.png)
-*metasploit exploit search*
 
 
 
