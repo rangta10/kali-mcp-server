@@ -66,7 +66,7 @@ Docker
 ```bash
 git clone https://github.com/rangta10/kali-mcp-server.git
 cd kali-mcp-server
-docker build -t kali-mcp .
+docker build -t kali-mcp-server .
 ```
 
 ### 2. Run the Server
