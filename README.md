@@ -84,7 +84,7 @@ docker run -it kali-mcp-server
 ```bash
 C:\Users\<YourUsername>\AppData\Roaming\Claude
 ```
-Edit this File 
+### Edit this File 
 ```
 claude_desktop_config.json
 ```
