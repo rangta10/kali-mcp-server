@@ -77,9 +77,9 @@ docker run -it kali-mcp-server
 
 ### 3. Config Claude AI
 
-*Install Claude Desktop
-*Turn on Claude Dveloper from settings
-*Navigate To
+#Install Claude Desktop
+#Turn on Claude Dveloper from settings
+#Navigate To
 
 ```bash
 C:\Users\<YourUsername>\AppData\Roaming\Claude
