@@ -72,7 +72,7 @@ docker build -t kali-mcp-server .
 ### 2. Run the Server
 
 ```bash
-docker run -it kali-mcp
+docker run -it kali-mcp-server
 ```
 
 ### 3. Config Claude AI
@@ -118,10 +118,6 @@ claude_desktop_config.json
     }
   }
 }
-```
-
-```bash
-docker run -it kali-mcp
 ```
 
 
